@@ -1,18 +1,28 @@
-# empty-module
+# n-of-one
 
-description
+an HTTP interface for tracking events in a simple way
 
-<!-- see [details.md](details.md). -->
+## quick start 
 
-## example
+let's say you want to make a timestamp every time you drink coffee
 
-```javascript
+in one shell,
+
+```sh
+n-of-one --port=8993 --enable-cors --out=coffees.csv
 ```
 
-## use
+now, whenever you hit localhost:8993, a timestamp will be written to coffees.csv
+
+```sh
+curl -O http://locahost:8993
+cat coffees.csv
+```
+
+## install
 
 ```
-npm i
+npm i n-of-one
 ```
 
 ## license
