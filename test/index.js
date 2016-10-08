@@ -43,5 +43,4 @@ test('testing server', t => {
 test.onFinish(function () {
   s.close()
   fs.unlinkSync(testcsvfile)
-  console.log('done')
 })

@@ -1,4 +1,9 @@
 {
+  "name": "n-of-one",
+  "version": "0.0.1",
+  "cmd": {
+    "n-of-one": "./cmd.js"
+  },
   "author": "elsehow",
   "license": "BSD-3-Clause",
   "main": "src/index.js",
@@ -13,6 +18,7 @@
   },
   "dependencies": {
     "minimist": "^1.2.0",
-    "restify": "^4.1.1"
+    "restify": "^4.1.1",
+    "usage-and-quit": "0.0.1"
   }
 }
